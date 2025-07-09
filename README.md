@@ -60,7 +60,7 @@ Open `index.html` in your browser.
 - Go to Settings > Pages  
 - Set source to `main` and root (`/`)  
 - Your site will be available at:  
-  https://gukisz.github.io/portfolio/
+  https://gukisz.github.io/newportfolio/
 
 ## 🔐 APIs Used
 
