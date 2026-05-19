@@ -1,4 +1,12 @@
 document.addEventListener("DOMContentLoaded", () => {
+  // Initialize AOS (Animate On Scroll)
+  AOS.init({
+    duration: 800,
+    easing: 'ease-in-out-cubic',
+    once: false,
+    mirror: false,
+  });
+
   startTypingEffect();
   loadGitHubProjects();
   loadQuote();

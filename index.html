@@ -5,7 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Gustavo Ribeiro | Portfolio</title>
   <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <script defer src="js/script.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <link rel="shortcut icon" href="assets/nike-icon.png" type="image/x-icon" />
 </head>
 <body>
@@ -26,33 +29,60 @@
   </header>
 
   <main class="container">
-    <section id="introduction" class="section intro-section">
+    <section id="introduction" class="section intro-section" data-aos="fade-up" data-aos-duration="800">
       <div class="profile-pic">
         <img src="assets/profile.jpeg" alt="Gustavo Profile Picture" />
       </div>
       <div class="intro-text">
         <h2 id="typed-name"></h2>
         <p id="typed-phrase" class="typed-phrase"></p>
+        <div class="social-links">
+          <a href="https://github.com/Gukisz" target="_blank" rel="noopener noreferrer" title="GitHub"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/gustavoribeiroo" target="_blank" rel="noopener noreferrer" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+          <a href="https://x.com/gkstrash" target="_blank" rel="noopener noreferrer" title="Twitter"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.instagram.com/gkszs_" target="_blank" rel="noopener noreferrer" title="Instagram"><i class="fab fa-instagram"></i></a>
+        </div>
       </div>
     </section>
 
-    <section id="skills" class="section">
+    <section id="about" class="section" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
+      <h2>About Me</h2>
+      <p class="about-text">
+        Sou um desenvolvedor web apaixonado por criar experiências digitais incríveis e intuitivas. Com foco em clean code e design moderno, trabalho para transformar ideias em soluções web de alto desempenho. Sempre em busca de aprender novas tecnologias e melhores práticas.
+      </p>
+      <div class="stats">
+        <div class="stat-item">
+          <div class="stat-number">10+</div>
+          <div class="stat-label">Projetos</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number">1+</div>
+          <div class="stat-label">Anos</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number">100%</div>
+          <div class="stat-label">Dedicação</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
       <h2>Skills</h2>
       <ul class="skills-list">
-        <li>HTML5</li>
-        <li>CSS3 (Flexbox, Grid)</li>
-        <li>JavaScript (ES6+)</li>
-        <li>TypeScript</li>
-        <li>Node.js</li>
+        <li><i class="fab fa-html5"></i> HTML5</li>
+        <li><i class="fab fa-css3-alt"></i> CSS3</li>
+        <li><i class="fab fa-js-square"></i> JavaScript</li>
+        <li><i class="fab fa-js-square"></i> TypeScript</li>
+        <li><i class="fab fa-node-js"></i> Node.js</li>
       </ul>
     </section>
 
-    <section id="projects" class="section">
+    <section id="projects" class="section" data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">
       <h2>Projects</h2>
       <div id="project-list" class="project-list"></div>
     </section>
 
-    <section id="contact" class="section">
+    <section id="contact" class="section" data-aos="fade-up" data-aos-duration="800" data-aos-delay="400">
       <h2>Contact Me</h2>
       <form
         id="contact-form"
@@ -96,7 +126,15 @@
   </main>
 
   <footer>
-    <p>&copy; 2025 Gustavo Ribeiro. All rights reserved.</p>
+    <div class="footer-content">
+      <p>&copy; 2025 Gustavo Ribeiro. All rights reserved.</p>
+      <div class="footer-socials">
+        <a href="https://github.com/Gukisz" target="_blank" rel="noopener noreferrer" title="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/gustavoribeiroo" target="_blank" rel="noopener noreferrer" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="https://x.com/gkstrash" target="_blank" rel="noopener noreferrer" title="Twitter"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.instagram.com/gkszs_" target="_blank" rel="noopener noreferrer" title="Instagram"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
     <p id="quote" class="footer-quote"></p>
   </footer>
   
