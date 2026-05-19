@@ -59,8 +59,6 @@ Open `index.html` in your browser.
 - Push to your `main` branch  
 - Go to Settings > Pages  
 - Set source to `main` and root (`/`)  
-- Your site will be available at:  
-  https://gukisz.github.io/newportfolio/
 
 ## 🔐 APIs Used
 
@@ -72,6 +70,7 @@ Open `index.html` in your browser.
 Use the form on the site, or reach me via:  
 - Email: gustavoribeiro070@gmail.com
 - GitHub: https://github.com/Gukisz
+- Website on pages: https://gukisz.github.io/newportifolio/
 
 ---
 
